@@ -27,7 +27,7 @@ class CommerceRecommenderTest {
 
     @BeforeEach
     void setup() {
-        //TODO: Setup paymentRecommender
+        paymentRecommender = new RecommendationService();
     }
 
     @Test
